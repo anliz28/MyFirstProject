@@ -1,0 +1,196 @@
+.body {
+    font-family: 'Kalam', cursive;, sans serif;
+    background-color: #f4f7f6;
+    margin: 0;
+}
+
+.h1 {
+    font-family: 'machroma', cursive, sans serif;
+    margin-top: 0;
+    padding-top: 30px;
+}
+h2 {
+    margin: 0 !important;
+}
+.h2 {
+    font-family:'Kalam', cursive;, sans serif;
+    font-size: 1.7em;
+    margin-bottom: 0;
+    margin-right: 0 !important;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    background-color:#1d1d1d;
+    padding-top: 0;
+}
+
+section {
+    text-align: center;
+    margin:30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3:before {
+    content: '~ ';
+    color: silver;
+}
+
+h3:after {
+    content: ' ~';
+    color: silver;
+}
+
+h3 {
+    font-size: 1.5em
+}
+
+ul {
+    padding: 0;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px
+}
+
+* {
+    box-sizing: border-box
+}
+
+nav {
+    text-align: center;
+    background-color: lightslategrey;
+    font-size: 1.5em;
+    box-shadow: 0 3px 1px -1px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+li:hover {
+    font-weight: bold
+}
+
+footer {
+    background: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.projet {
+    width: 400px;
+    margin: 30px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0 black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.projet:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.3s;
+
+}
+
+
+
+.projet span {
+    text-transform: uppercase;
+    display: block;
+
+}
+
+#projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.picture {
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+}
+.picture > img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+}
+
+.date-project {
+    font-size: 0.7em;
+
+}
+
+.contact {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 30px;
+    widows:500px;
+    height: auto;
+}
+
+.separator {
+    width: 40px;
+    height: 1px;
+    margin: 15px auto;
+    display: block;
+    background-color: #999999;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+footer { margin-top: 50px;
+
+}
+section p {
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
+}
+.container h2 {
+    font-size: 1.7em;
+    color:darkblue;
+}
+
+
+
+/*responsive*/
+@media all and (max-width:1000px) {
+    .projet {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .projet img {
+        width: 100%;
+        height: auto;
+    }
+
+    .projet .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-yt {
+        width: 100%;
+        height: auto;
+    }
+
+}
